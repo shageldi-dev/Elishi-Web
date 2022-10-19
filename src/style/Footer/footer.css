@@ -1,0 +1,20 @@
+.footer{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 60px;
+}
+
+.snow-dialog{
+    width: 90%;
+    height: 100px;
+    position: absolute;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.footer-logo{
+    filter: invert(255%) sepia(255%) saturate(255%) hue-rotate(87deg) brightness(119%) contrast(119%);
+    height: 92px;
+}
+

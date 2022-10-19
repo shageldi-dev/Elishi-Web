@@ -1,0 +1,34 @@
+.my-dots{
+    position: absolute;
+    bottom: 0;
+    height: 100px;
+    border: 3px solid #73AD21;
+    z-index: 1;
+    width: 100%;
+}
+.app-banner-dots{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 6px;
+    background-color: #F0F4F4;
+    border-color: transparent;
+}
+.app-banner-dots.active{
+    background-color: #FD654C;
+
+}
+
+.slider-image-app{
+    border-radius: 16px;
+}
+
+.main-category-glass{
+    padding: 4px;
+    text-align: center;
+    backdrop-filter: blur(4px);
+    background: rgba(255, 255, 255, 0.56);
+    width: 100%;
+}
+
+

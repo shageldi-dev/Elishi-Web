@@ -1,3 +1,46 @@
+@font-face {
+  font-family: AppBold;
+  src: url("./assets/fonts/Gordita Bold.otf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: AppBlack;
+  src: url("./assets/fonts/Gordita Black.otf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: AppLight;
+  src: url("./assets/fonts/Gordita Light.otf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: AppRegular;
+  src: url("./assets/fonts/Gordita Regular.otf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: AppMedium;
+  src: url("./assets/fonts/Gordita Medium.otf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: AppThin;
+  src: url("./assets/fonts/Gordita Thin.otf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: AppUltra;
+  src: url("./assets/fonts/Gordita Ultra.otf");
+  font-display: swap;
+}
+
+
 .App {
   text-align: center;
 }
