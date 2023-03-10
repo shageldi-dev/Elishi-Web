@@ -1,16 +1,15 @@
 import "./App.css";
-import {Box, createTheme, CssBaseline, ThemeProvider} from "@mui/material";
-import {BrowserRouter, Route, Routes, useLocation} from "react-router-dom";
+import Category from "./page/Category/Category";
 import Home from "./page/Home/Home";
 import Index from "./page/Index/Index";
-import {colors} from "./common/theme.mjs";
-import {useWidth} from "./component/Navbar/Navbar";
-import {phoneSizes} from "./common/size.mjs";
-import {useEffect, useState,createContext} from "react";
-import Category from "./page/Category/Category";
+import Loading from "./component/Status/Loading";
 import Products from "./page/Product/Products";
-
-
+import { Box, CssBaseline, ThemeProvider, createTheme } from "@mui/material";
+import { createContext, useEffect, useState } from "react";
+import { BrowserRouter, Route, Routes, useLocation } from "react-router-dom";
+import { phoneSizes } from "./common/size.mjs";
+import { colors } from "./common/theme.mjs";
+import { useWidth } from "./component/Navbar/Navbar";
 
 const lightTheme = createTheme({
   palette: {
@@ -96,7 +95,7 @@ function App() {
   }, [wwidth]);
 
 
-
+  const [loading,setLoading] = useState(false);
 
   return (
      <AppContext.Provider value={{
@@ -109,7 +108,9 @@ function App() {
                fontFamily: 'AppBold',
              }}
          >
-           <BrowserRouter>
+           {
+            loading?<Loading/>:
+            <BrowserRouter>
              <Routes>
                <Route path={"/"} element={<Index/>}>
                  <Route index element={<Home/>}/>
@@ -118,6 +119,7 @@ function App() {
                </Route>
              </Routes>
            </BrowserRouter>
+           }
          </Box>
 
        </ThemeProvider>

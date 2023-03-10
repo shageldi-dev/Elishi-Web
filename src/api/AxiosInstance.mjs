@@ -1,7 +1,7 @@
 import axios from "axios";
 
-export const BASE_URL = "http://api.elishi.art/api/";
-export const IMAGE_BASE_URL = "http://api.elishi.art/";
+export const BASE_URL = "https://api.elishi.art/api/";
+export const IMAGE_BASE_URL = "https://api.elishi.art/";
 
 const AxiosInstance = axios.create({
     baseURL: BASE_URL,

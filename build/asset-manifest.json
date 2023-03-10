@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.fff597cf.css",
-    "main.js": "/static/js/main.c4a8c56d.js",
+    "main.css": "/static/css/main.b7bb4f3d.css",
+    "main.js": "/static/js/main.7aad3baf.js",
     "static/media/Gordita Black.otf": "/static/media/Gordita Black.491e83b6a2267fcb8058.otf",
     "static/media/Gordita Medium.otf": "/static/media/Gordita Medium.57ad2e0b7fce1864eef9.otf",
     "static/media/Gordita Bold.otf": "/static/media/Gordita Bold.933dc82c419ccef42c6f.otf",
@@ -10,11 +10,11 @@
     "static/media/Gordita Thin.otf": "/static/media/Gordita Thin.c4029b2261825965ed55.otf",
     "static/media/Gordita Regular.otf": "/static/media/Gordita Regular.9a1fe35dd5c9e2a6ef9a.otf",
     "index.html": "/index.html",
-    "main.fff597cf.css.map": "/static/css/main.fff597cf.css.map",
-    "main.c4a8c56d.js.map": "/static/js/main.c4a8c56d.js.map"
+    "main.b7bb4f3d.css.map": "/static/css/main.b7bb4f3d.css.map",
+    "main.7aad3baf.js.map": "/static/js/main.7aad3baf.js.map"
   },
   "entrypoints": [
-    "static/css/main.fff597cf.css",
-    "static/js/main.c4a8c56d.js"
+    "static/css/main.b7bb4f3d.css",
+    "static/js/main.7aad3baf.js"
   ]
 }
